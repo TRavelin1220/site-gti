@@ -1,0 +1,453 @@
+/* Header*/
+body,
+html {
+    font-family: 'Bangers', cursive;
+    margin: top 0;
+}
+
+#Header {
+    width: 100%;
+    background-color: #7109AA;
+    transition: background ease-out 0.2s;
+}
+
+
+
+#Header .navbar-collapse {
+    width: auto;
+}
+
+#Header .navbar-brand img {
+    max-height: 70px;
+}
+
+#Header .nav-link {
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: yellow;
+    border-bottom: solid 4px transparent;
+}
+
+#Header .nav-link:hover {
+    border-bottom: solid 4px #000;
+    color: red;
+}
+
+/*header*/
+
+/*slider*/
+.container-fluid {
+    padding: 0;
+    background-color: #7109AA;
+}
+
+#slider .carousel-inner,
+#slider .cariusel-item {
+    height: 90vh;
+}
+
+#slider .carousel-caption {
+    top: 20%;
+}
+
+#slider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: yellow;
+}
+
+#slider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-btn {
+    background-color: yellow;
+    color: #7109AA;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 4px solid transparent;
+    transition: 0.5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: yellow;
+    background-color: transparent;
+    border-color: #7109AA;
+}
+
+.carousel-indicators .active {
+    background-color: yellow;
+}
+
+/*/slider*/
+
+/*sobre */
+
+.main-title {
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    margin: 50px 0;
+    background-color: #7109AA;
+}
+
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: yellow;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: yellow;
+    border: 2px solid transparent;
+    left: -3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    color: #7109AA;
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 37%;
+    height: 2px;
+    background: yellow;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: yellow;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700;
+    color: #7109AA;
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #7109AA;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right;
+    color: yellow;
+    border: black 2px;
+
+}
+
+.main-timeline .title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+/*/sobre*/
+
+/*serviços*/
+
+
+a {
+    color: #7109AA;
+}
+
+a:hover {
+    color: red;
+
+}
+
+#serviços a.destaque {
+    display: block;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#serviços a.destaque:hover {
+    color: #7109AA;
+    background-color: greenyellow;
+    transform: scale(1.05);
+    box-shadow: 0, 0, 29px 0 black;
+}
+
+#serviços a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#serviços a.destaque .img-container img {
+    max-height: 160px;
+}
+
+/*/serviços*/
+
+#Clientes a.link-cliente {
+    padding: 0 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    height: 100px;
+    transition: ease-out all 0.2s;
+    border: solid 2px black;
+}
+
+#Clientes a.link-cliente:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 black;
+}
+
+#Clientes a.link-cliente img {
+    max-height: 70px;
+    filter: grayscale(100%);
+    width: 100%;
+    opacity: 0.8;
+}
+
+#Clientes a.link-cliente:hover img {
+    filter: none;
+    opacity: 1;
+
+}
+
+#portifolio .element-item img {
+    border-radius: 5px;
+    transition: ease-out all 0.2s;
+}
+
+#portifolio .element-item h5 {
+    color: yellow;
+    justify-content: center;
+}
+
+#portifolio .element-item p .badge {
+    background-color: yellow;
+    color: black;
+}
+
+#portifolio .element-item img:hover {
+    box-shadow: 0 0 29px 0 black;
+}
+
+#portifolio .button-group {
+    margin-bottom: 30px;
+}
+
+#portifolio .button-group button {
+    margin: 0px;
+    background: yellow;
+    outline: none;
+}
+
+#portifolio .button-group button+button {
+    margin-left: 29px;
+    margin-top: 5px;
+}
+
+#portifolio .button-group button .active {
+    color: #7109AA;
+}
+
+#contato .email {
+    border-radius: 5px;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+    color: #7109AA;
+}
+
+#contato .email img {
+    position: absolute;
+    left: 30px;
+    max-height: 70px;
+    top: 20px;
+}
+
+#contato .email form {
+    width: 65%;
+    display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+    background: #7109AA;
+    color: yellow;
+}
+
+#contato .email form button {
+    background-color: #7109AA;
+    color: yellow;
+}
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contato ul li:first-child {
+    margin-left: 0;
+}
+
+#contato .logo img {
+    max-height: 30px;
+}
+
+#contato ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+    box-shadow: 0 0 10px 0 black;
+    background-color: yellow;
+}
